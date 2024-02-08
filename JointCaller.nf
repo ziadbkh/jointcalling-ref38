@@ -425,7 +425,6 @@ workflow {
 
     // run python script for dynamically combine intervals
     DynamicallyCombineIntervals(unpadded_intervals_file, merge_count)
-//    output_intervals = DynamicallyCombineIntervals(unpadded_intervals_file, merge_count)
 
     // get range from the dynamically combine interval size
     range = getIntervalLength(DynamicallyCombineIntervals.out.output_intervals.readLines().size())
