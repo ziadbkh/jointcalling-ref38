@@ -12,3 +12,8 @@ How to run on NCI:
 ```
 qsub JointCaller.sh
 ```
+
+### Additional steps
+
+1. clone: https://github.com/samtools/tabix
+2. Export path to GatherSitesOnlyVCF and FinalGather processes
