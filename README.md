@@ -1,4 +1,4 @@
-# jointcalling-ref38
+# Jointcalling-ref38
 
 Jointcall GVCF files to VCF
 
@@ -8,7 +8,7 @@ Jointcall GVCF files to VCF
 
 - NCI: DSL2 on NCI
 
-How to run:
+How to run on NCI:
 ```
 qsub JointCaller.sh
 ```
